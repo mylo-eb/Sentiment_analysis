@@ -2,6 +2,7 @@ import pandas as pd
 import csv
 import re 
 import string
+import matplotlib.pyplot as plt
 df=pd.read_csv(r'C:\Users\myloe\OneDrive\Desktop\combined.csv')
 
 #removing URls 
