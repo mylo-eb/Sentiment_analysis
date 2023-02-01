@@ -5,3 +5,6 @@ This repository contains all the associated work that has been done for the area
 Tweepy as a Python library for accessing the Twitter API and collecting tweets
 Notebooks associated with data engineering, LDA and regression Modeling
 Web App
+
+## Questions?
+Email the author at mylo.ebted@gmail.com
