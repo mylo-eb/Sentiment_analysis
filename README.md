@@ -6,5 +6,6 @@ Tweepy as a Python library for accessing the Twitter API and collecting tweets
 Notebooks associated with data engineering, LDA and regression Modeling
 Web App
 
+I have performed topic modeling using LDA to get the models that can be used for sentiment analysis later.
 ## Questions?
 Email the author at mylo.ebted@gmail.com
