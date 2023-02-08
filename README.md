@@ -4,7 +4,7 @@
 This work was done for a private project and the dataset cannot be released because I don't own the copyright. However, everything in this repository can be easily modified to work with other datasets.
 
 ## Dataset Information
-We use and compare various different methods for sentiment analysis on tweets. The dataset is a combined csv file. 
+We use and compare various different methods for sentiment analysis on tweets collected from Twitter with tweepy tweepy which is a python library for accessing the Twitter API. The dataset is a combined csv file. 
 
 ## Requirements
 There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
@@ -17,10 +17,7 @@ The library requirements specific to some methods are:
 .
 .
 .
-
-
-Note: It is recommended to use Anaconda distribution of Python.
-Analyzes sentiment from Twitter tweets on housing prices to determine impact on Real Estate pricing.
+Analyzes sentiment from Twitter tweets on housing prices to determine impact of public sentiment on Real Estate pricing.
 This repository contains all the associated work that has been done for the area which includes:
 Tweepy as a Python library for accessing the Twitter API and collecting tweets
 Notebooks associated with data engineering, LDA and regression Modeling
