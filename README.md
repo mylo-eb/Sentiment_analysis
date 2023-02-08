@@ -1,4 +1,4 @@
-# Sentiment Analysis on ~50Million Tweets to Predict Real State Pricing Trend in 2010 to 2021
+# Sentiment Analysis on collected Tweets to Predict Real State Pricing Trend in 2010 to 2021
 ## Author: Milad(Mylo) Ebtedaei
 
 This work was done for a private project and the dataset cannot be released because I don't own the copyright. However, everything in this repository can be easily modified to work with other datasets.
@@ -23,6 +23,21 @@ Tweepy as a Python library for accessing the Twitter API and collecting tweets
 Notebooks associated with data engineering, LDA and regression Modeling
 Web App
 
-I have performed topic modeling using LDA to get the models that can be used for sentiment analysis later.
+## Interesting facts from exploratory data analysis
+Less 0.01% users will push tweets with their locations.
+More than 65.6% users will write the locations in their profile, although very few of them don't live on Earth according to that fact. In this project we have used the location that is mentioned in the profile.
+
+## Orignal Development
+Extract Twitter Data, preprocess data in Python
+Combine collected tweets in the form of dataframes together 
+Perform exploratory data analysis and text clening on tweets
+Connect with Plotly for interactive dashboard 
+
+## Challenges
+Unstructured tweet texts may contain messy code and emoji characters
+Most of the tweets were created by bots or were advertisement
+It's hard to get Tweiter's approval to collect the tweets with tweepy for more than 500.000 tweets
+Plotly doesn't have well-document on reference making customize dashboard much harder
+
 ## Questions?
 Email the author at mylo.ebted@gmail.com
