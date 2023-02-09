@@ -32,10 +32,10 @@ Less 0.01% users will push tweets with their locations.
 More than 65.6% users will write the locations in their profile, although very few of them don't live on Earth according to that fact. In this project we have used the location that is mentioned in the profile.
 
 ## Orignal Development
-Extract Twitter Data, preprocess data in Python
-Combine collected tweets in the form of dataframes together 
-Perform exploratory data analysis and text clening on tweets
-Connect with Plotly for interactive dashboard 
+- Extract Twitter Data, preprocess data in Python
+- Combine collected tweets in the form of dataframes together 
+- Perform exploratory data analysis and text clening on tweets
+- Connect with Plotly for interactive dashboard 
 
 ## Challenges
 Unstructured tweet texts may contain messy code and emoji characters
