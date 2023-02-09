@@ -1,6 +1,5 @@
 <<<<<<< HEAD
-# Sentiment Analysis on ~500000 Tweets to Predict Real State Pricing Trend in 2010 to 2021
-=======
+
 # Sentiment Analysis on collected Tweets to Predict Real State Pricing Trend in 2010 to 2021
 >>>>>>> 2f6157bd69355d56b38fbb762b77397a0ec86c98
 ## Author: Milad(Mylo) Ebtedaei
