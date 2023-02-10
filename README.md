@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-
 # Sentiment Analysis on collected Tweets to Predict Real State Pricing Trend in 2010 to 2021
->>>>>>> 2f6157bd69355d56b38fbb762b77397a0ec86c98
+
 ## Author: Milad(Mylo) Ebtedaei
 
 This work was done for a private project and the dataset cannot be released because I don't own the copyright. However, everything in this repository can be easily modified to work with other datasets.
