@@ -1,4 +1,5 @@
 # Sentiment Analysis on collected Tweets to Predict Real State Pricing Trend in 2010 to 2021
+![Screenshot 2023-02-11 100150](https://user-images.githubusercontent.com/121390440/218265654-28030bbd-d9a7-453e-8f5c-e0cb97f1e957.png)
 
 ## Author: Milad(Mylo) Ebtedaei
 
