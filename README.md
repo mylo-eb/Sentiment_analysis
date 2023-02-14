@@ -8,7 +8,7 @@ This work was done for a private project and the dataset cannot be released beca
 We use and compare various different methods for sentiment analysis on tweets collected from Twitter with tweepy tweepy which is a python library for accessing the Twitter API. The dataset is a combined csv file. 
 
 ## Requirements
-There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
+There are some general library requirements as follows.
 
 - numpy
 - scikit-learn
@@ -19,16 +19,6 @@ There are some general library requirements for the project and some which are s
 - gensim
 - panda
 - vader sentiment
-
-The library requirements specific to some methods are:
-.
-.
-.
-Analyzes sentiment from Twitter tweets on housing prices to determine impact of public sentiment on Real Estate pricing.
-This repository contains all the associated work that has been done for the area which includes:
-Tweepy as a Python library for accessing the Twitter API and collecting tweets
-Notebooks associated with data engineering, LDA and regression Modeling
-Web App
 
 ## What is Latent Dirichlet Allocation?
 A common topic modeling method is Latent Dirichlet Allocation first proposed by David Blei, Andrew Ng und Michael I. Jordan in 2003. It is a general statistical model that allows to find and identify topics within documents. It posits that each document consists of a mixture of topics, and each word in a document is attributed to a specific topic. The sets of words that make up the topics are then in an iterative training process identified. The only variable that has to be specified beforehand is the number of topics.
