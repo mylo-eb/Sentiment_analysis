@@ -24,11 +24,11 @@ There are some general library requirements as follows.
 A common topic modeling method is Latent Dirichlet Allocation first proposed by David Blei, Andrew Ng und Michael I. Jordan in 2003. It is a general statistical model that allows to find and identify topics within documents. It posits that each document consists of a mixture of topics, and each word in a document is attributed to a specific topic. The sets of words that make up the topics are then in an iterative training process identified. The only variable that has to be specified beforehand is the number of topics.
 
 ## Preprocessing
-In order to achieve good results we need to preprocess the collected tweets. Ideally, we want to end up with words that are decisive for a topic and also with as few words as necessary. In a first step we will do some text cleaning on tweets such as removing any type of punctuation, quotation marks, etc. Then we will filter out all words that are not nouns, adjectives, adverbs or verbs. Further, we will lemmatize the remaining words, a process by which inflected words are transformed into their base form. These steps greatly decrease the size of unique words. 
+In order to achieve good results we need to preprocess the collected tweets. Ideally, we want to end up with words that are decisive for a topic and also with as few words as necessary. In a first step we will do some text cleaning on tweets such as removing any type of punctuation, quotation marks, URL's, stopword and etc. Then we will filter out all words that are not nouns, adjectives, adverbs or verbs. Further, we will lemmatize the remaining words, a process by which inflected words are transformed into their base form. These steps greatly decrease the size of unique words. 
 In a final preprocessing step we will calculate bag-of-words representations for each document, which could be understood as a vector pointing into a specific direction depending on which words and how often they were used in a document.
 
 ## Word Clouds
-Plotting word clouds can also give us a good idea about which topics have been recognized.
+Plotting word clouds can also give us a good idea about which topics have been recognized. A word cloud shows common words used in all the titles.
 ![Screenshot 2023-02-11 123848](https://user-images.githubusercontent.com/121390440/218272732-623d009d-7194-4b60-a35c-cd8721e393c4.png)
 
 ## pyLDAvis
