@@ -50,6 +50,6 @@ Unstructured tweet texts may contain messy code and emoji characters
 Most of the tweets were created by bots or were advertisement
 It's hard to get Tweiter's approval to collect the tweets with tweepy for more than 500.000 tweets
 Plotly doesn't have well-document on reference making customize dashboard much harder
-
+ 
 ## Questions?
 Email the author at mylo.ebted@gmail.com
