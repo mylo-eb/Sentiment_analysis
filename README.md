@@ -4,6 +4,9 @@
 
 This work was done for a private project and the dataset cannot be released because I don't own the copyright. However, everything in this repository can be easily modified to work with other datasets.
 
+## Introduction
+This project involves using the Tweepy Python API to retrive tweets from Twitter, followed by conducting LDA to create a model of tweet topics modeling and analyze sentiment. Ultimately, the objective is to predict trends in housing prices through regression.
+
 ## Dataset Information
 We use and compare various different methods for sentiment analysis on tweets collected from Twitter with tweepy tweepy which is a python library for accessing the Twitter API. The dataset is a combined csv file. 
 
